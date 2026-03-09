@@ -1,6 +1,6 @@
 # Number Guessing Game (JavaScript)
 <br>
-Author - Sarita Pandey (Number Guessing Game)
+Author - Sarita Pandey 
 
 ## Project Description
 This is a simple console-based number guessing game written in JavaScript.
