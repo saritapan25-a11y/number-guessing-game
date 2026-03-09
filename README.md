@@ -1,4 +1,4 @@
-# Number Guessing Game (JavaScript)
+## Number Guessing Game (JavaScript)
 <br>
 Author - Sarita Pandey 
 
