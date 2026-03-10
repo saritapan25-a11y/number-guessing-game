@@ -1,6 +1,6 @@
 # Number Guessing Game (JavaScript)
 <br>
-Author - Sarita Pandey 
+#Author - Sarita Pandey 
 
 ## Project Description
 This is a simple console-based number guessing game written in JavaScript.
@@ -19,7 +19,7 @@ If the guess is incorrect, the program asks again until the correct number is gu
 1. Clone the repository
 2. Run the following command
 
-node game.js
+node number-guess-game.js
 
 ## Concepts Used
 
