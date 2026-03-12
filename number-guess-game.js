@@ -1,3 +1,4 @@
+// Use of readline module to take input
 const readline = require("readline");
 
 const rl = readline.createInterface({
