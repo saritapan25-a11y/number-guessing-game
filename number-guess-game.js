@@ -19,9 +19,9 @@ function askGuess() {
     } else {
       console.log(" \n Wrong guess, try again.\n");
       if (guess > secretNumber) {
-  console.log(" Hint --> Too high ,Please enter less than " , guess);
+  console.log(" Hint --> Too high ,Please enter less than: " , guess);
 } else if (guess < secretNumber) {
-  console.log(" Hint --> Too low , Please enter greater than" , guess);
+  console.log(" Hint --> Too low , Please enter greater than: " , guess);
 }
       askGuess();
     }
