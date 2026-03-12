@@ -8,7 +8,7 @@ This is a simple console-based number guessing game written in JavaScript.
 
 The program generates a random number between 1 and 10 and asks the user to guess the number.
 
-If the guess is incorrect, then program wil give some hint whether next number is to be greater or lesser  . 
+If the guess is incorrect, then program will give some hint whether next number is to be greater or lesser  . 
 
 program asks again until the correct number is guessed.
 
