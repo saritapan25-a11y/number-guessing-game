@@ -15,10 +15,15 @@ const secretNumber = Math.floor(Math.random() * 10) + 1;
 function askGuess() {
   rl.question("\n Guess a number between 1 and 10: ", function (guess) {
     if (parseInt(guess) === secretNumber) {
-      console.log("🎉 You guessed correctly!\n");
+      console.log(" You guessed correctly!\n");
       rl.close();
     } else {
-      console.log("❌ Wrong guess, try again.\n");
+      console.log(" Wrong guess, try again.\n");
+      if (guess > secretNumber) {
+  console.log(" Too high ,Please enter less than " , guess);
+} else if (guess < secretNumber) {
+  console.log(" Too low , Please enter greater than" , guess);
+}
       askGuess();
     }
   });
