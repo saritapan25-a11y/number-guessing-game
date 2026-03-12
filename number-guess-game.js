@@ -23,9 +23,9 @@ function askGuess() {
 } else if (guess < secretNumber) {
   console.log(" Hint --> Too low , Please enter greater than: " , guess);
 }
-      askGuess();
+      askGuess(); // Recursive function 
     }
   });
 }
 
-askGuess();
+askGuess(); //call the  askGuess function 
