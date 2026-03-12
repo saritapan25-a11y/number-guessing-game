@@ -1,5 +1,4 @@
 // Use of readline module which allows to take input from the terminal.
-
 const readline = require("readline");
 
 // Create an interface
@@ -18,11 +17,11 @@ function askGuess() {
       console.log(" You guessed correctly!\n");
       rl.close();
     } else {
-      console.log(" Wrong guess, try again.\n");
+      console.log(" \n Wrong guess, try again.\n");
       if (guess > secretNumber) {
-  console.log(" Too high ,Please enter less than " , guess);
+  console.log(" Hint --> Too high ,Please enter less than " , guess);
 } else if (guess < secretNumber) {
-  console.log(" Too low , Please enter greater than" , guess);
+  console.log(" Hint --> Too low , Please enter greater than" , guess);
 }
       askGuess();
     }
